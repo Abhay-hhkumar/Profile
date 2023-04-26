@@ -13,12 +13,12 @@ body{
  /*for mobile */
   .home{width:100vw;height:100vh;margin:auto;display:flex;justify-content:space-between;flex-direction:column;}
    p{margin:0;padding:0;}
-  .home .c1 img{max-height:40vh;max-width:40vw;}
+  .home .c1 img{max-height:40vh;max-width:80vw;}
   .home .c1{width:100vw;height:auto;display:grid;place-content:center;user-select:none;}
   
   .home .c2{height:10vh;display:grid;place-content:center;user-select:none;z-index:100;}
   .home .c2 .cx{display:flex;justify-content:center;}
-  .home .c2 .cx img{height:25px;margin-left:14px;}
+  .home .c2 .cx img{height:25px;margin-left:7px;}
   .home .c22 .f2{font-size:2rem;color: #5E5E5E;text-align:center;}
   .home .c22 .f1{font-size:1.25rem;color: #5E5E5E;text-align:center;display:flex;flex-wrap:wrap;}
 
@@ -33,9 +33,43 @@ body{
    .home .c4{height:5vh;display:grid;user-select:none;width:100vw;}
    .home .c4 img{max-width:40vw;margin:auto;}
 
-@media only screen and (max-width:390px){
+   @media only screen and (max-height:430px){
+    .home .c3 nav {height:80%;gap:7px;}
+   .home .c3 nav button{ font-size:1rem;padding:5px 20px;border-radius:30px;}                   
+   
+
+   }
+   @media only screen and ((max-height:385px) and (max-width:230px)){
+    .home .c3 nav {height:80%;gap:4px;}
+   .home .c3 nav button{ font-size:1rem;padding:3px 20px;border-radius:30px;}  
+             
+   
+
+   }
+   @media only screen and (max-width:240px){
+    .home .c3 nav {height:80%;gap:7px;}
+   .home .c3 nav button{ font-size:1rem;padding:5px 20px;border-radius:30px;}                   
+   .home .c22 .f2{font-size:1.5rem;}
+
+   }
+   @media only screen and (max-height:340px){
+    .home .c3 nav {height:80%;gap:4px;}
+   .home .c3 nav button{ font-size:0.7rem;padding:3px 20px;}                   
+   .home .c22 .f2{font-size:1.1rem;}
+   .home .c22 .f1{font-size:1rem;}
+
+   }
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:390px){
   .home .c22 .f2{font-size:1.5rem;}
-  .home .c2 .cx img{width:30px;height:auto;margin-left:20px;}
+  .home .c2 .cx img{width:30px;height:auto;margin-left:10px;}
   .home .c22 .f1{font-size:1rem;}
 
   .home .c3 nav {gap:7px;}
@@ -52,7 +86,8 @@ body{
   .home .c22 .f1{font-size:0.7rem;color: #5E5E5E;text-align:center;display:flex;flex-wrap:wrap;}
   .home .c3 nav button{  box-shadow:none !important;font-size:0.7rem;background:none;width:70vw;padding:4px 20px;}    
   
-}
+} */
+
 
      /*for desktop*/
      .home2{display:flex;flex-direction:row;}
